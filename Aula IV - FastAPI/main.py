@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 
@@ -27,6 +27,18 @@ items = [
     Item(id=3, nome="Teclado", preco=150.00),
     Item(id=4, nome="Monitor", preco=1200.00),
     Item(id=5, nome="Impressora", preco=300.00),
+    Item(id=6, nome="Scanner", preco=450.00),
+    Item(id=7, nome="Webcam", preco=200.00),
+    Item(id=8, nome="Headset", preco=250.00),
+    Item(id=9, nome="Roteador", preco=180.00),
+    Item(id=10, nome="SSD", preco=600.00),
+    Item(id=11, nome="HD Externo", preco=400.00),
+    Item(id=12, nome="Placa de Vídeo", preco=2200.00),
+    Item(id=13, nome="Memória RAM", preco=350.00),
+    Item(id=14, nome="Fonte", preco=500.00),
+    Item(id=15, nome="Gabinete", preco=300.00),
+    Item(id=16, nome="Cooler", preco=120.00),
+    Item(id=17, nome="Cabo HDMI", preco=50.00)
 ]
 
 # Listar todos os produtos (GET)
@@ -65,7 +77,7 @@ def atualizar_produto(item_id: int, item_atualizado: ItemInput):
             items[i] = Item(id=item_id, **item_atualizado.model_dump())
             return ItemInputResponse(message="Produto atualizado com sucesso", dados=items[i])
     raise HTTPException(status_code=404, detail="Produto não encontrado")
-from pydantic import BaseModel, Field
+
 # Remover produto (DELETE)
 @app.delete("/produtos/{item_id}")
 def remover_produto(item_id: int):
