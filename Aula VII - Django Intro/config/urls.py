@@ -18,13 +18,24 @@ from django.contrib import admin
 from django.urls import include, path
 from drf_spectacular.views import (SpectacularAPIView, SpectacularRedocView,
                                    SpectacularSwaggerView)
-from produtos.views import ProdutoViewSet
+from produtos.views import CategoriaViewSet, ProdutoViewSet
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register(r'produtos', ProdutoViewSet)
+router.register(r'categoria', CategoriaViewSet)
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+  path("admin/", admin.site.urls),
+  path("api/", include(router.urls)),
+
+  # Rota para gerar o schema (JSON do OpenAPI)
+  path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
+
+  # Swagger UI
+  path("api/docs/", SpectacularSwaggerView.as_view(url_name="schema"), name="swagger-ui"),
+
+  # Redoc
+  path("api/redoc/", SpectacularRedocView.as_view(url_name="schema"), name="redoc"),
 ]
 
