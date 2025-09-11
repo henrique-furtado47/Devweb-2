@@ -10,9 +10,8 @@ from .serializers import CategoriaSerializer, ProdutoSerializer
 class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
     serializer_class = ProdutoSerializer
-
     filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
-    filterset_fields = ['preco', 'estoque']  # Filtragem exata por preço e estoque
+    filterset_fields = ['preco', 'estoque', 'categoria__nome']  # Filtragem exata por preço e estoque
     search_fields = ['nome']  # Busca textual
     ordering_fields = ['nome', 'preco']  # Ordenação
     ordering = ['id']  # Ordenação padrão
