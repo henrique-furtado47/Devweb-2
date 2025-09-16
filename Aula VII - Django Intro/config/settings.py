@@ -49,6 +49,8 @@ REST_FRAMEWORK = {
     'rest_framework.filters.SearchFilter',
     'rest_framework.filters.OrderingFilter',
   ],
+    'DEFAULT_PAGINATION_CLASS': 'config.pagination.CustomPagination',  # ajuste o caminho conforme seu app
+    'PAGE_SIZE': 10,  # quantidade padrão de itens por página
 }
 
 SPECTACULAR_SETTINGS = {
