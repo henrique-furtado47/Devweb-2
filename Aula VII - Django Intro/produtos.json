@@ -1,0 +1,806 @@
+[
+{
+  "model": "produtos.categoria",
+  "pk": 1,
+  "fields": {
+    "nome": "Eletrônicos",
+    "descricao": "Eletronicos..."
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Papelaria",
+    "descricao": "Papelaria..."
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 3,
+  "fields": {
+    "nome": "Computadores e Notebooks",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 1,
+  "fields": {
+    "nome": "Pen drive de 16 GB que cabe 32 GB",
+    "descricao": "",
+    "estoque": 12,
+    "preco": "35.00",
+    "criado_em": "2025-09-09T14:32:11.551Z",
+    "atualizado_em": "2025-09-09T14:32:11.552Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 2,
+  "fields": {
+    "nome": "Impressora 3D",
+    "descricao": "",
+    "estoque": 1,
+    "preco": "5999.99",
+    "criado_em": "2025-09-09T14:33:14.808Z",
+    "atualizado_em": "2025-09-11T12:00:41.030Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 3,
+  "fields": {
+    "nome": "Notebook",
+    "descricao": "Notebook Lenovo",
+    "estoque": 5,
+    "preco": "4999.99",
+    "criado_em": "2025-09-11T11:51:43.580Z",
+    "atualizado_em": "2025-09-11T11:51:43.580Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 4,
+  "fields": {
+    "nome": "Mouse USB",
+    "descricao": "Logitech",
+    "estoque": 10,
+    "preco": "39.99",
+    "criado_em": "2025-09-11T11:52:10.823Z",
+    "atualizado_em": "2025-09-11T11:52:10.823Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 5,
+  "fields": {
+    "nome": "Teclado USB",
+    "descricao": "Microsoft",
+    "estoque": 5,
+    "preco": "89.99",
+    "criado_em": "2025-09-11T11:52:35.333Z",
+    "atualizado_em": "2025-09-11T11:52:35.333Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 6,
+  "fields": {
+    "nome": "Monitor Ultra Wide",
+    "descricao": "Samsung",
+    "estoque": 2,
+    "preco": "899.99",
+    "criado_em": "2025-09-11T11:52:58.177Z",
+    "atualizado_em": "2025-09-11T11:52:58.177Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 7,
+  "fields": {
+    "nome": "Mouse com fio",
+    "descricao": "Dell",
+    "estoque": 8,
+    "preco": "9.99",
+    "criado_em": "2025-09-11T11:53:20.980Z",
+    "atualizado_em": "2025-09-11T11:53:20.980Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 8,
+  "fields": {
+    "nome": "Teclado com fio",
+    "descricao": "Dell",
+    "estoque": 5,
+    "preco": "30.00",
+    "criado_em": "2025-09-11T11:53:40.357Z",
+    "atualizado_em": "2025-09-11T11:53:40.357Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 9,
+  "fields": {
+    "nome": "Caneta Bic Azul",
+    "descricao": "",
+    "estoque": 100,
+    "preco": "1.99",
+    "criado_em": "2025-09-11T11:56:05.926Z",
+    "atualizado_em": "2025-09-11T11:56:05.926Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "Lápis 2B",
+    "descricao": "",
+    "estoque": 1000,
+    "preco": "1.99",
+    "criado_em": "2025-09-11T11:56:25.931Z",
+    "atualizado_em": "2025-09-11T11:56:25.931Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 11,
+  "fields": {
+    "nome": "Caderno Universitário 200 folhas",
+    "descricao": "Capa dura",
+    "estoque": 50,
+    "preco": "19.90",
+    "criado_em": "2025-09-11T12:05:01.000Z",
+    "atualizado_em": "2025-09-11T12:05:01.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 12,
+  "fields": {
+    "nome": "Apontador Duplo",
+    "descricao": "",
+    "estoque": 200,
+    "preco": "2.50",
+    "criado_em": "2025-09-11T12:05:30.000Z",
+    "atualizado_em": "2025-09-11T12:05:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 13,
+  "fields": {
+    "nome": "Borracha branca",
+    "descricao": "",
+    "estoque": 500,
+    "preco": "1.20",
+    "criado_em": "2025-09-11T12:06:01.000Z",
+    "atualizado_em": "2025-09-11T12:06:01.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 14,
+  "fields": {
+    "nome": "Régua 30 cm",
+    "descricao": "",
+    "estoque": 150,
+    "preco": "3.90",
+    "criado_em": "2025-09-11T12:06:30.000Z",
+    "atualizado_em": "2025-09-11T12:06:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 15,
+  "fields": {
+    "nome": "Mochila Escolar",
+    "descricao": "Colorida",
+    "estoque": 20,
+    "preco": "129.90",
+    "criado_em": "2025-09-11T12:07:01.000Z",
+    "atualizado_em": "2025-09-11T12:07:01.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 16,
+  "fields": {
+    "nome": "Tablet Android 10”",
+    "descricao": "Samsung Galaxy Tab",
+    "estoque": 10,
+    "preco": "1599.99",
+    "criado_em": "2025-09-11T12:08:00.000Z",
+    "atualizado_em": "2025-09-11T12:08:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 17,
+  "fields": {
+    "nome": "Smartphone Android",
+    "descricao": "Motorola Edge",
+    "estoque": 8,
+    "preco": "2399.99",
+    "criado_em": "2025-09-11T12:08:40.000Z",
+    "atualizado_em": "2025-09-11T12:08:40.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 18,
+  "fields": {
+    "nome": "Carregador USB-C",
+    "descricao": "Turbo 30W",
+    "estoque": 30,
+    "preco": "59.90",
+    "criado_em": "2025-09-11T12:09:10.000Z",
+    "atualizado_em": "2025-09-11T12:09:10.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 19,
+  "fields": {
+    "nome": "Caixa de Som Bluetooth",
+    "descricao": "JBL",
+    "estoque": 12,
+    "preco": "299.90",
+    "criado_em": "2025-09-11T12:09:40.000Z",
+    "atualizado_em": "2025-09-11T12:09:40.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 20,
+  "fields": {
+    "nome": "Fone de Ouvido Sem Fio",
+    "descricao": "Sony",
+    "estoque": 15,
+    "preco": "499.90",
+    "criado_em": "2025-09-11T12:10:15.000Z",
+    "atualizado_em": "2025-09-11T12:10:15.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 21,
+  "fields": {
+    "nome": "Headset Gamer",
+    "descricao": "Com microfone",
+    "estoque": 7,
+    "preco": "249.90",
+    "criado_em": "2025-09-11T12:11:00.000Z",
+    "atualizado_em": "2025-09-11T12:11:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 22,
+  "fields": {
+    "nome": "HD Externo 1TB",
+    "descricao": "Seagate",
+    "estoque": 9,
+    "preco": "399.99",
+    "criado_em": "2025-09-11T12:11:30.000Z",
+    "atualizado_em": "2025-09-11T12:11:30.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 23,
+  "fields": {
+    "nome": "SSD 512GB",
+    "descricao": "Kingston NVMe",
+    "estoque": 6,
+    "preco": "499.99",
+    "criado_em": "2025-09-11T12:12:00.000Z",
+    "atualizado_em": "2025-09-11T12:12:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 24,
+  "fields": {
+    "nome": "Placa de Vídeo RTX 4060",
+    "descricao": "NVIDIA",
+    "estoque": 3,
+    "preco": "2499.99",
+    "criado_em": "2025-09-11T12:12:30.000Z",
+    "atualizado_em": "2025-09-11T12:12:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 25,
+  "fields": {
+    "nome": "Processador Ryzen 7",
+    "descricao": "AMD 5700X",
+    "estoque": 4,
+    "preco": "1599.99",
+    "criado_em": "2025-09-11T12:13:00.000Z",
+    "atualizado_em": "2025-09-11T12:13:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 26,
+  "fields": {
+    "nome": "Memória RAM 16GB",
+    "descricao": "DDR4 3200MHz",
+    "estoque": 12,
+    "preco": "299.90",
+    "criado_em": "2025-09-11T12:13:30.000Z",
+    "atualizado_em": "2025-09-11T12:13:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 27,
+  "fields": {
+    "nome": "Placa-mãe ASUS",
+    "descricao": "Compatível com Ryzen",
+    "estoque": 5,
+    "preco": "899.99",
+    "criado_em": "2025-09-11T12:14:00.000Z",
+    "atualizado_em": "2025-09-11T12:14:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 28,
+  "fields": {
+    "nome": "Fonte 650W",
+    "descricao": "Corsair 80 Plus Bronze",
+    "estoque": 8,
+    "preco": "429.90",
+    "criado_em": "2025-09-11T12:14:30.000Z",
+    "atualizado_em": "2025-09-11T12:14:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 29,
+  "fields": {
+    "nome": "Gabinete Gamer",
+    "descricao": "Com RGB",
+    "estoque": 6,
+    "preco": "349.90",
+    "criado_em": "2025-09-11T12:15:00.000Z",
+    "atualizado_em": "2025-09-11T12:15:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 30,
+  "fields": {
+    "nome": "Cooler para CPU",
+    "descricao": "Water Cooler 240mm",
+    "estoque": 3,
+    "preco": "599.90",
+    "criado_em": "2025-09-11T12:15:30.000Z",
+    "atualizado_em": "2025-09-11T12:15:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 31,
+  "fields": {
+    "nome": "Smart TV 50”",
+    "descricao": "4K UHD",
+    "estoque": 4,
+    "preco": "2799.90",
+    "criado_em": "2025-09-11T12:16:00.000Z",
+    "atualizado_em": "2025-09-11T12:16:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 32,
+  "fields": {
+    "nome": "Controle Remoto Universal",
+    "descricao": "",
+    "estoque": 20,
+    "preco": "49.90",
+    "criado_em": "2025-09-11T12:16:30.000Z",
+    "atualizado_em": "2025-09-11T12:16:30.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 33,
+  "fields": {
+    "nome": "Impressora Multifuncional",
+    "descricao": "HP Deskjet",
+    "estoque": 6,
+    "preco": "699.99",
+    "criado_em": "2025-09-11T12:17:00.000Z",
+    "atualizado_em": "2025-09-11T12:17:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 34,
+  "fields": {
+    "nome": "Scanner Portátil",
+    "descricao": "Canon",
+    "estoque": 5,
+    "preco": "899.99",
+    "criado_em": "2025-09-11T12:17:30.000Z",
+    "atualizado_em": "2025-09-11T12:17:30.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 35,
+  "fields": {
+    "nome": "Projetor Full HD",
+    "descricao": "Epson",
+    "estoque": 3,
+    "preco": "1999.99",
+    "criado_em": "2025-09-11T12:18:00.000Z",
+    "atualizado_em": "2025-09-11T12:18:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 36,
+  "fields": {
+    "nome": "Lousa Branca 1x1m",
+    "descricao": "",
+    "estoque": 15,
+    "preco": "149.90",
+    "criado_em": "2025-09-11T12:18:30.000Z",
+    "atualizado_em": "2025-09-11T12:18:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 37,
+  "fields": {
+    "nome": "Marcador de Quadro Branco",
+    "descricao": "Kit com 4 cores",
+    "estoque": 60,
+    "preco": "19.90",
+    "criado_em": "2025-09-11T12:19:00.000Z",
+    "atualizado_em": "2025-09-11T12:19:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 38,
+  "fields": {
+    "nome": "Post-it Amarelo",
+    "descricao": "Bloco 100 folhas",
+    "estoque": 200,
+    "preco": "12.90",
+    "criado_em": "2025-09-11T12:19:30.000Z",
+    "atualizado_em": "2025-09-11T12:19:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 39,
+  "fields": {
+    "nome": "Clips de Papel",
+    "descricao": "Caixa com 100 unidades",
+    "estoque": 500,
+    "preco": "5.90",
+    "criado_em": "2025-09-11T12:20:00.000Z",
+    "atualizado_em": "2025-09-11T12:20:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 40,
+  "fields": {
+    "nome": "Grampeador de Mesa",
+    "descricao": "Pequeno",
+    "estoque": 25,
+    "preco": "29.90",
+    "criado_em": "2025-09-11T12:20:30.000Z",
+    "atualizado_em": "2025-09-11T12:20:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 41,
+  "fields": {
+    "nome": "Estabilizador 500VA",
+    "descricao": "Enermax",
+    "estoque": 10,
+    "preco": "249.90",
+    "criado_em": "2025-09-11T12:21:00.000Z",
+    "atualizado_em": "2025-09-11T12:21:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 42,
+  "fields": {
+    "nome": "Nobreak 1200VA",
+    "descricao": "APC",
+    "estoque": 5,
+    "preco": "1199.99",
+    "criado_em": "2025-09-11T12:21:30.000Z",
+    "atualizado_em": "2025-09-11T12:21:30.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 43,
+  "fields": {
+    "nome": "Webcam Full HD",
+    "descricao": "Logitech",
+    "estoque": 8,
+    "preco": "349.90",
+    "criado_em": "2025-09-11T12:22:00.000Z",
+    "atualizado_em": "2025-09-11T12:22:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 44,
+  "fields": {
+    "nome": "Microfone Condensador USB",
+    "descricao": "Blue Yeti",
+    "estoque": 4,
+    "preco": "799.90",
+    "criado_em": "2025-09-11T12:22:30.000Z",
+    "atualizado_em": "2025-09-11T12:22:30.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 45,
+  "fields": {
+    "nome": "Tripé Ajustável",
+    "descricao": "1,5m de altura",
+    "estoque": 15,
+    "preco": "129.90",
+    "criado_em": "2025-09-11T12:23:00.000Z",
+    "atualizado_em": "2025-09-11T12:23:00.000Z",
+    "categoria": 1
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 46,
+  "fields": {
+    "nome": "Notebook Gamer",
+    "descricao": "Acer Predator",
+    "estoque": 2,
+    "preco": "8999.99",
+    "criado_em": "2025-09-11T12:23:30.000Z",
+    "atualizado_em": "2025-09-11T12:23:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 47,
+  "fields": {
+    "nome": "Ultrabook Dell XPS",
+    "descricao": "13 polegadas",
+    "estoque": 3,
+    "preco": "7499.99",
+    "criado_em": "2025-09-11T12:24:00.000Z",
+    "atualizado_em": "2025-09-11T12:24:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 48,
+  "fields": {
+    "nome": "Chromebook Lenovo",
+    "descricao": "",
+    "estoque": 6,
+    "preco": "2299.90",
+    "criado_em": "2025-09-11T12:24:30.000Z",
+    "atualizado_em": "2025-09-11T12:24:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 49,
+  "fields": {
+    "nome": "MacBook Air M2",
+    "descricao": "Apple",
+    "estoque": 2,
+    "preco": "10499.99",
+    "criado_em": "2025-09-11T12:25:00.000Z",
+    "atualizado_em": "2025-09-11T12:25:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 50,
+  "fields": {
+    "nome": "Servidor Torre",
+    "descricao": "Dell PowerEdge",
+    "estoque": 1,
+    "preco": "14999.99",
+    "criado_em": "2025-09-11T12:25:30.000Z",
+    "atualizado_em": "2025-09-11T12:25:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 51,
+  "fields": {
+    "nome": "Caixa Organizadora",
+    "descricao": "Plástico transparente",
+    "estoque": 40,
+    "preco": "24.90",
+    "criado_em": "2025-09-11T12:26:00.000Z",
+    "atualizado_em": "2025-09-11T12:26:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 52,
+  "fields": {
+    "nome": "Estojo Escolar",
+    "descricao": "2 compartimentos",
+    "estoque": 30,
+    "preco": "39.90",
+    "criado_em": "2025-09-11T12:26:30.000Z",
+    "atualizado_em": "2025-09-11T12:26:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 53,
+  "fields": {
+    "nome": "Tesoura Escolar",
+    "descricao": "Sem ponta",
+    "estoque": 60,
+    "preco": "7.90",
+    "criado_em": "2025-09-11T12:27:00.000Z",
+    "atualizado_em": "2025-09-11T12:27:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 54,
+  "fields": {
+    "nome": "Cola Branca 90g",
+    "descricao": "",
+    "estoque": 80,
+    "preco": "4.90",
+    "criado_em": "2025-09-11T12:27:30.000Z",
+    "atualizado_em": "2025-09-11T12:27:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 55,
+  "fields": {
+    "nome": "Agenda 2025",
+    "descricao": "Capa couro sintético",
+    "estoque": 25,
+    "preco": "59.90",
+    "criado_em": "2025-09-11T12:28:00.000Z",
+    "atualizado_em": "2025-09-11T12:28:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 56,
+  "fields": {
+    "nome": "Plastificadora A4",
+    "descricao": "",
+    "estoque": 3,
+    "preco": "399.90",
+    "criado_em": "2025-09-11T12:28:30.000Z",
+    "atualizado_em": "2025-09-11T12:28:30.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 57,
+  "fields": {
+    "nome": "Calculadora Científica",
+    "descricao": "Casio",
+    "estoque": 10,
+    "preco": "129.90",
+    "criado_em": "2025-09-11T12:29:00.000Z",
+    "atualizado_em": "2025-09-11T12:29:00.000Z",
+    "categoria": 2
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 58,
+  "fields": {
+    "nome": "Cadeira Gamer",
+    "descricao": "Ajustável e reclinável",
+    "estoque": 5,
+    "preco": "1199.99",
+    "criado_em": "2025-09-11T12:29:30.000Z",
+    "atualizado_em": "2025-09-11T12:29:30.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 59,
+  "fields": {
+    "nome": "Mesa para Computador",
+    "descricao": "Com gaveta",
+    "estoque": 7,
+    "preco": "499.90",
+    "criado_em": "2025-09-11T12:30:00.000Z",
+    "atualizado_em": "2025-09-11T12:30:00.000Z",
+    "categoria": 3
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 60,
+  "fields": {
+    "nome": "Cadeira de Escritório",
+    "descricao": "Ergonômica",
+    "estoque": 10,
+    "preco": "699.90",
+    "criado_em": "2025-09-11T12:30:30.000Z",
+    "atualizado_em": "2025-09-11T12:30:30.000Z",
+    "categoria": 3
+  }
+}
+]
